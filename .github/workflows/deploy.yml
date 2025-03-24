@@ -3,7 +3,7 @@ name: Deploy React App to GitHub Pages
 on:
     push:
         branches:
-            - dev
+            - master
 permissions:
     contents: write
 
