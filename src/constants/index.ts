@@ -132,7 +132,7 @@ const projects = [
     {
         name: "Pizzeria",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Full-stack web application for a pizzeria with JWT-based authentication and full responsiveness. Users can add pizzas to the cart, remove them, and place orders, also choise type of pizza.",
         tags: [
             {
                 name: "react",
@@ -148,6 +148,14 @@ const projects = [
             },
             {
                 name: "mongodb",
+                color: "green-text-gradient",
+            },
+            {
+                name: "docker",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "nginx",
                 color: "green-text-gradient",
             },
             {
@@ -161,23 +169,19 @@ const projects = [
     {
         name: "Gemini clone",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Frontend application integrated with the Google Gemini API, featuring a code formatter, full responsiveness, theming, and dark mode.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "express",
-                color: "green-text-gradient",
-            },
-            {
                 name: "typescript",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
-                color: "green-text-gradient",
+                name: "shadcn ui",
+                color: "purple-text-gradient",
             },
             {
                 name: "scss",
@@ -185,32 +189,24 @@ const projects = [
             },
         ],
         image: aichat,
-        source_code_link: "https://github.com/Timluk1/Ai-chat",
+        source_code_link: "https://timluk1.github.io/Ai-chat/",
     },
     {
         name: "Starwars site",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Simple site with project and contact pages, also with responsive design.",
         tags: [
             {
-                name: "react",
+                name: "html",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "css",
                 color: "blue-text-gradient",
             },
             {
-                name: "express",
-                color: "green-text-gradient",
-            },
-            {
-                name: "typescript",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "mongodb",
-                color: "green-text-gradient",
-            },
-            {
-                name: "scss",
-                color: "pink-text-gradient",
+                name: "javascript",
+                color: "yellow-text-gradient",
             },
         ],
         image: starwars,
@@ -219,23 +215,15 @@ const projects = [
     {
         name: "Company site",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Simple site with project and contact pages, also with responsive design.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "express",
-                color: "green-text-gradient",
-            },
-            {
                 name: "typescript",
                 color: "blue-text-gradient",
-            },
-            {
-                name: "mongodb",
-                color: "green-text-gradient",
             },
             {
                 name: "scss",
@@ -247,27 +235,22 @@ const projects = [
     },
     {
         name: "Admin panel",
-        description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        description: "Admin panel with users page. Admin can create user, delete, and change user data. in table",
         tags: [
             {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "express",
-                color: "green-text-gradient",
+                name: "next",
+                color: "purple-text-gradient",
             },
             {
                 name: "typescript",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
-                color: "green-text-gradient",
+                name: "tailwind css",
+                color: "blue-text-gradient",
             },
             {
-                name: "scss",
+                name: "shadcn ui",
                 color: "pink-text-gradient",
             },
         ],
