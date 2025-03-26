@@ -1,5 +1,4 @@
 import { SectionWrapper } from "../hoc";
-import { EarthCanvas } from "./canvas";
 import { motion } from "framer-motion";
 import { fadeIn } from "../utils/motion";
 import { styles } from "../styles";
