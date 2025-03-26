@@ -56,7 +56,10 @@ const AboutBase = () => {
                 className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
                 variants={fadeIn("", "", 0.1, 0.1)}
             >
-                Welcome to my portfolio! I specialize in developing modern web applications with a focus on code quality and user experience. Here, you'll find information about my expertise in frontend and full-stack development, along with examples of my projects.
+                Welcome to my portfolio! I specialize in developing modern web
+                applications with a focus on code quality and user experience.
+                Here, you'll find information about my expertise in frontend and
+                full-stack development, along with examples of my projects.
             </motion.p>
 
             <div className="max-md:grid-cols-1 max-md:w-full w-[70%] mt-20 grid grid-cols-2 gap-10">

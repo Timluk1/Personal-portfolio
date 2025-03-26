@@ -85,9 +85,9 @@ html,
 }
 
 .purple-text-gradient {
-    background: #8A2BE2;
-    background: -webkit-linear-gradient(to top, #8A2BE2, #4B0082);
-    background: linear-gradient(to top, #8A2BE2, #4B0082);
+    background: #8a2be2;
+    background: -webkit-linear-gradient(to top, #8a2be2, #4b0082);
+    background: linear-gradient(to top, #8a2be2, #4b0082);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

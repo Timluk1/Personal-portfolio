@@ -235,7 +235,8 @@ const projects = [
     },
     {
         name: "Admin panel",
-        description: "Admin panel with users page. Admin can create user, delete, and change user data. in table",
+        description:
+            "Admin panel with users page. Admin can create user, delete, and change user data. in table",
         tags: [
             {
                 name: "next",

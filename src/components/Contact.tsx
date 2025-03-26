@@ -5,6 +5,9 @@ import { fadeIn } from "../utils/motion";
 import { styles } from "../styles";
 import { contacts } from "../constants";
 import { Tilt } from "react-tilt";
+import React from "react";
+
+const EarthCanvas = React.lazy(() => import("./canvas/Earth"));
 
 const ContactBase = () => {
     return (

@@ -14,7 +14,7 @@ interface IBallProps {
     color: string;
 }
 
-export const BallCanvas: React.FC<IBallProps> = ({ icon, color }) => {
+export default function BallCanvas({ icon, color }: IBallProps) {
     return (
         <Canvas
             shadows
@@ -29,7 +29,7 @@ export const BallCanvas: React.FC<IBallProps> = ({ icon, color }) => {
             <Preload all />
         </Canvas>
     );
-};
+}
 
 const Ball: React.FC<IBallProps> = ({ icon, color }) => {
     const texture = useTexture(icon);

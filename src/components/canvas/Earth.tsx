@@ -5,7 +5,7 @@ import { OrbitControls, Preload } from "@react-three/drei";
 import { Suspense } from "react";
 import { Loader } from "../Loader";
 
-export const EarthCanvas = () => {
+export default function EarthCanvas() {
     return (
         <Canvas
             shadows
@@ -32,7 +32,7 @@ export const EarthCanvas = () => {
             <Preload all />
         </Canvas>
     );
-};
+}
 
 const Earth = () => {
     const earth = useLoader(GLTFLoader, "./planet/scene.gltf");

@@ -90,7 +90,11 @@ const ProjectsBase = () => {
                     className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
                     variants={fadeIn("", "", 0.1, 1)}
                 >
-                    Here are some of my projects, where I have implemented modern web solutions using cutting-edge technologies. From easy landing pages and content management systems to clones of popular ai services—each project showcases my skills in development and optimization.
+                    Here are some of my projects, where I have implemented
+                    modern web solutions using cutting-edge technologies. From
+                    easy landing pages and content management systems to clones
+                    of popular ai services—each project showcases my skills in
+                    development and optimization.
                 </motion.p>
             </div>
 
